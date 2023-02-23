@@ -16,9 +16,15 @@ section {
     float: left;
 }
 
-div + section, div + section +section {
+.bottom {
     clear: left;
     width: 50%;
     height: 200px;
     float: right;
+}
+
+@media screen and (max-width: 800px) {
+    section {
+        background-color: blue;
+    }
 }
