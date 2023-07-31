@@ -7,7 +7,7 @@ function stopSnacking() {
     let numSnacks = Number(document.querySelector('input').value)
     document.querySelector('#stops').innerText = ""
     for(let i = 1; i <= numSnacks ; i++) {
-        document.querySelector('#stops').innerText += " Stop!"
+        document.querySelector('#stops').innerText += "\n Stop!"
     }
 }
 
