@@ -5,6 +5,7 @@ document.querySelector('#help').addEventListener('click', stopSnacking)
 
 function stopSnacking() {
     let numSnacks = Number(document.querySelector('input').value)
+    console.log(numSnacks)
     document.querySelector('#stops').innerText = ""
     for(let i = 1; i <= numSnacks ; i++) {
         document.querySelector('#stops').innerText += "\n Stop!"
