@@ -27,9 +27,3 @@ console.log(sum)
 // average the total with rounding 
 avgNum = Math.round(sum / numArr.length)
 console.log(avgNum)
-
-// for (let i = 0; i < numArr; i++) {
-//     sum += numArr[i];
-//     console.log(sum)
-   
-// }
