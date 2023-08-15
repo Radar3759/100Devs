@@ -13,17 +13,19 @@ function threeNums(n1, n2, n3) {
  let solution = (n1/n2) * n3
  alert(solution)
 }
-threeNums(10, 20, 5)
+threeNums(1000, 20, 5)
 
 // Create a function that takes in 1 number. Console log the cube root of the number. Call the function.
 function oneNum(num) {
-    console.log(Math.cbrt(num))
+    // to Fixed is for decimal places
+    console.log(Math.cbrt(num).toFixed(4))
 }
 oneNum(100)
 // *Conditionals*
 //Create a function that takes in a month. If it is a summer month alert "YAY". If another other month, alert "Booo"
 function month(month) {
-    if (month === "June" || month === "July" || month === "August") {
+    let monthLower = month.toLowerCase()
+    if (monthLower === "June" || monthLower === "July" || monthLower === "August") {
         alert("Yay")
     } else {
         alert("Boo")
