@@ -28,7 +28,6 @@
       
       // Array.prototype.filter()
       // 1. Filter the list of inventors for those who were born in the 1500's
-     
       // finds ONLY years between 1500 and 1600
       let fifteens = inventors.filter((inventors) => inventors.year < 1600 && inventors.year > 1500)
       console.log(fifteens)
