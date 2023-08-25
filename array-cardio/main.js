@@ -61,4 +61,10 @@
       // 8. Reduce Exercise
       // Sum up the instances of each of these
       const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+
+      let car = 0
+      let truck = 0
+      let bike = 0
+      let walk = 0
+      let van = 0
   
